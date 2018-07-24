@@ -942,6 +942,28 @@
 // }
 // isFifteen(15,5);
 
-
 // ---------------- Exe #46 ---------------- //
+
+// Write a JavaScript program to check two given non-negative integers and if one of the number (not both) is multiple of 7 or 11
+
+// My solution:
+
+// function sevenEleven ( x , y)
+// {
+//   if ( x < 0 || y < 0 )
+//   {
+//     console.log(`enter number grater then zero`)
+//   }
+//   if (( x % 7 == 0 || x % 11 == 0) || ( y % 7 == 0 || y % 11 == 0 ))
+//   {
+//     return true;
+//   }
+//   return false;
+// }
+// sevenEleven(1,20);
+
+// ---------------- Exe #47 ---------------- //
+
+// Write a JavaScript program to check if a number in the range 40..10000 inclusive presents in two number (in same range).
+
 
