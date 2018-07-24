@@ -871,4 +871,44 @@
 
 // ---------------- Exe #43 ---------------- //
 
+// Write a JavaScript program to check from three given numbers (non negative integers) that two or all of them have the same rightmost digit. 
+
+
+// My solution:
+
+// function rightmostDigit (x,y,z)
+// {
+//     x1 = x.toString();
+//     y1 = y.toString();
+//     z1 = z.toString();
+ 
+//       if 
+//       ( x1[1] === z1[1] 
+//         &&
+//         y1[1] === z1[1]
+//       )
+//       {
+//         console.log(`all of them have thesame rightmost digits`);
+//       }
+//       else if  ( x1[1] === y1[1] || y1[1] === z1[1] || z[1] == x[1])
+//       {
+//         console.log(`two of them have the same rightmost digits`);
+//       }
+// }
+// rightmostDigit (30,30,30);
+
+// their solution:
+
+// function same_last_digit(p, q, r) {
+//     return (p % 10 === q % 10) ||
+//            (p % 10 === r % 10) ||
+//            (q % 10 === r % 10);
+           
+// }
+
+// console.log(same_last_digit(22,32,42));
+// console.log(same_last_digit(102,302,2));
+// console.log(same_last_digit(20,22,45));
+
+
 
