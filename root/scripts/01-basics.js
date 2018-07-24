@@ -918,9 +918,9 @@
 
 // function lessby20_others(x, y, z) 
 // {
-// return (x >= 20 && (x < y || x < z)) ||
-// (y >= 20 && (y < x || y < z)) ||
-// (z >= 20 && (z < y || z < x));
+//    return (x >= 20 && (x < y || x < z)) ||
+//    (y >= 20 && (y < x || y < z)) ||
+//    (z >= 20 && (z < y || z < x));
 // }
 // console.log(lessby20_others(23, 45, 10));
 // console.log(lessby20_others(23, 23, 10));
@@ -930,4 +930,18 @@
 
 // Write a JavaScript program to check two given integer values and return true if one of the number is 15 or if their sum or difference is 15
 
+// function isFifteen (x, y)
+// {
+//   minus = x - y;
+//   result = minus;
+//   if (x == 15 || y == 15 || result == 15)
+//   {
+//     return true;
+//   }
+//     return false;
+// }
+// isFifteen(15,5);
+
+
+// ---------------- Exe #46 ---------------- //
 
