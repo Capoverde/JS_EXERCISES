@@ -910,5 +910,9 @@
 // console.log(same_last_digit(102,302,2));
 // console.log(same_last_digit(20,22,45));
 
+// ---------------- Exe #44 ---------------- //
+
+// Write a JavaScript program to check from three given integers that if a number is greater than or equal to 20 and less than one of the others.
+
 
 
