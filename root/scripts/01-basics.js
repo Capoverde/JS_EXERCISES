@@ -787,3 +787,46 @@
 
 // console.log(sortaSum(30,20));
 // console.log(sortaSum(90,80));
+
+
+// ---------------- Exe #40 ---------------- //
+
+// Write a JavaScript program to check from two given integers if either one is 8 or their sum or difference is 8
+
+// My solution:
+
+// function is_eight (n1, n2)
+// {
+//     minus = n1 - n2;
+
+//     if (minus == 8)
+//     {
+//         console.log(`the sum of difference is equal to 8`);
+//     }
+//     else if (n1 == 8 || n2 ==8)
+//     {
+//         console.log(`one of theme is equal to 8`);
+//     }
+// }
+// is_eight(1,1);
+
+// Their solution:
+
+// function check8(x, y) {
+//     if (x == 8 || y == 8) {
+//       return true;
+//     }
+  
+//     if (x + y == 8 || Math.abs(x - y) == 8)
+//     {
+//       return true;
+//     }
+  
+//     return false;
+//   }
+  
+//   console.log(check8(7, 8));
+//   console.log(check8(16, 8));
+//   console.log(check8(24, 32));
+//   console.log(check8(17, 18));
+
