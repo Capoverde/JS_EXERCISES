@@ -982,5 +982,16 @@
 // console.log(test_digit(80, 320));  
 // console.log(test_digit(89, 4000));
 
+// ---------------- Exe #48 ---------------- //
 
+// Write a JavaScript program to reverse a given string.
+
+// My solution
+
+// function oposite (str)
+// {
+//   var rev = str.split('').reverse().join('');
+//   return rev;
+// }
+// oposite('abcde');
 
