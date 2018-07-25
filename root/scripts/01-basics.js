@@ -1077,3 +1077,38 @@
 //     return str.join(" ");
 // }
 
+// ---------------- Exe #51 ---------------- //
+
+// Write a JavaScript program to convert a given number to hours and minutes.
+
+// My solution (first understanding of a question):
+
+function hoursMinutes (num)
+{
+    hh = ' hh ';
+    mm = ' mm';
+
+    step1 = num.toString();
+    step2 = step1.substr(0,2);
+    step21 = parseInt(step2);
+    // console.log(step21);
+    step3 = step1.substr(2,2);
+    step22 = parseInt(step3);
+    // console.log(step22);
+
+    if (step21 > 24 || step21 < 0)
+    {
+        return false;
+    }
+    else if (step22 > 59 || step22 < 0)
+    {
+        return false;
+    }
+    else if (typeof step22 == NaN )
+    {
+        step22 = "00";
+    }
+    step4 = step21 + hh + step22 + mm;
+    return step4;
+}
+hoursMinutes(2456573493023);
