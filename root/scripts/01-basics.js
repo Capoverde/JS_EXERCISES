@@ -1137,3 +1137,18 @@
 //     return (/a...b/).test(str) || (/b...a/).test(str);
 // }
 // separate3('axxxbxxa');
+
+// ---------------- Exe #54 ---------------- //
+
+// Write a JavaScript program to count the number of vowels in a given string
+
+// My solution:
+
+// function vowelsSearch (str)
+// {
+//    s1 = str.match(/a|e|i|o|u|y/gi);
+//    s2 = s1.length;
+//    console.log(`There are ${s2} vowels in a given string` );
+   
+// }
+// vowelsSearch('Write a JavaScript program to count the number of vowels in a given string');
