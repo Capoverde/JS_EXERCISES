@@ -1243,12 +1243,31 @@
 
 // Write a JavaScript program to create a new string without the first and last character of a given string. 
 
-function firstAndLast (str)
-{
-  s1 = str.split('');
-  s2 = s1.shift();
-  s3 = s1.pop();
-  s4 = s1.join('');
-  console.log(s4);
-}
-firstAndLast('AxDDxxxB');
+// function firstAndLast (str)
+// {
+//   s1 = str.split('');
+//   s2 = s1.shift();
+//   s3 = s1.pop();
+//   s4 = s1.join('');
+//   console.log(s4);
+// }
+// firstAndLast('AxDDxxxB');
+
+// ---------------- Exe #61 ---------------- //
+
+// Write a JavaScript program to concatenate two strings except their first character
+
+// My solution:
+
+// function con (str1, str2)
+// {
+//   s1 = str1.split('');
+//   s11 = s1.shift();
+//   // console.log(s1);
+//   s2 = str2.split('');
+//   s22 = s2.shift();
+//   // console.log(s2);
+//   summ = s1.join('') + s2.join('');
+//   console.log(summ);
+// }
+// con('Axxx', 'Byyy');
