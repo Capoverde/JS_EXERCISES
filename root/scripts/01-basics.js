@@ -1104,11 +1104,22 @@ function hoursMinutes (num)
     {
         return false;
     }
-    else if (typeof step22 == NaN )
+    else if ( step22 == NaN)
     {
         step22 = "00";
     }
     step4 = step21 + hh + step22 + mm;
     return step4;
 }
-hoursMinutes(2456573493023);
+hoursMinutes(2456);
+
+// ---------------- Exe #52 ---------------- //
+
+// Write a JavaScript program to convert the letters of a given string in alphabetical order.
+
+// My solution
+
+// function convertion (str){
+//     return str.split('').sort().join('');
+//   }
+//   convertion('bcda');
