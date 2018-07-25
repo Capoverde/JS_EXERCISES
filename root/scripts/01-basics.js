@@ -1195,3 +1195,14 @@
 //     result_array;
 //     }
 //     console.log(result_array);
+
+// ---------------- Exe #57 ---------------- //
+
+// Write a JavaScript program to create a new string of specified copies (positive number) of a given string.
+
+// function copies (str, num)
+// {
+//     rep = str.repeat(num);
+//     return rep;
+// }
+// copies('Piorek', 5)
