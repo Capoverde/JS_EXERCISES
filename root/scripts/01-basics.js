@@ -1152,3 +1152,21 @@
    
 // }
 // vowelsSearch('Write a JavaScript program to count the number of vowels in a given string');
+
+// ---------------- Exe #55 ---------------- //
+
+// Write a JavaScript program to check if a given string contains equal number of p's and t's present.
+
+// function pisandtis (str)
+// {
+//     p = str.match(/p/gi);
+//     t = str.match(/t/gi);
+
+//     if (p.length == t.length)
+//     {
+//         return true;
+//     }
+//     return false;
+// }
+// pisandtis ('ttt ppp');
+
