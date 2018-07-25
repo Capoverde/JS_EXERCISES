@@ -1083,35 +1083,35 @@
 
 // My solution (first understanding of a question):
 
-function hoursMinutes (num)
-{
-    hh = ' hh ';
-    mm = ' mm';
+// function hoursMinutes (num)
+// {
+//     hh = ' hh ';
+//     mm = ' mm';
 
-    step1 = num.toString();
-    step2 = step1.substr(0,2);
-    step21 = parseInt(step2);
-    // console.log(step21);
-    step3 = step1.substr(2,2);
-    step22 = parseInt(step3);
-    // console.log(step22);
+//     step1 = num.toString();
+//     step2 = step1.substr(0,2);
+//     step21 = parseInt(step2);
+//     // console.log(step21);
+//     step3 = step1.substr(2,2);
+//     step22 = parseInt(step3);
+//     // console.log(step22);
 
-    if (step21 > 24 || step21 < 0)
-    {
-        return false;
-    }
-    else if (step22 > 59 || step22 < 0)
-    {
-        return false;
-    }
-    else if ( step22 == NaN)
-    {
-        step22 = "00";
-    }
-    step4 = step21 + hh + step22 + mm;
-    return step4;
-}
-hoursMinutes(2456);
+//     if (step21 > 24 || step21 < 0)
+//     {
+//         return false;
+//     }
+//     else if (step22 > 59 || step22 < 0)
+//     {
+//         return false;
+//     }
+//     else if ( step22 == NaN)
+//     {
+//         step22 = "00";
+//     }
+//     step4 = step21 + hh + step22 + mm;
+//     return step4;
+// }
+// hoursMinutes(2456);
 
 // ---------------- Exe #52 ---------------- //
 
@@ -1123,3 +1123,7 @@ hoursMinutes(2456);
 //     return str.split('').sort().join('');
 //   }
 //   convertion('bcda');
+
+
+// convertion = (str) => {return str.split('').sort().join(''); }
+// convertion(bcda);
