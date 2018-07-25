@@ -1206,3 +1206,22 @@
 //     return rep;
 // }
 // copies('Piorek', 5)
+
+// ---------------- Exe #58 ---------------- //
+
+// Write a JavaScript program to create a new string of 4 copies of the last 3 characters of a given original string. The length of the given string must be 3 and above
+
+// function new4 (str)
+// {
+//     if (str.length <3 ){
+//         console.log('not enough chracters, please enter etleast 3 ')
+//     }
+//     else
+//     {
+//     st1 = str.substr(str.length -3);
+//     st2 = st1.repeat(4);
+//         console.log(st2);
+//     }
+// }
+// new4('cd');
+
