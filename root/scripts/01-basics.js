@@ -1243,3 +1243,12 @@
 
 // Write a JavaScript program to create a new string without the first and last character of a given string. 
 
+function firstAndLast (str)
+{
+  s1 = str.split('');
+  s2 = s1.shift();
+  s3 = s1.pop();
+  s4 = s1.join('');
+  console.log(s4);
+}
+firstAndLast('AxDDxxxB');
