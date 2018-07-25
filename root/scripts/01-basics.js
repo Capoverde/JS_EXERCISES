@@ -1276,3 +1276,11 @@
 
 // Write a JavaScript program to move last three character to the start of a given string. The string length must be greater or equal to three
 
+// function lastThree (str)
+// {
+//   s1 = str.substr(str.length - 3);
+//   s2 = str.substr(0,str.length - 3);
+//   s3 = s1 + s2;
+//   return s3;
+// }
+// lastThree('aaaaaBCD');
