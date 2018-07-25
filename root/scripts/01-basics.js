@@ -1125,5 +1125,15 @@
 //   convertion('bcda');
 
 
-// convertion = (str) => {return str.split('').sort().join(''); }
+// let = convertion = (str) => {return str.split('').sort().join(''); }
 // convertion(bcda);
+
+// ---------------- Exe #53 ---------------- //
+
+// Write a JavaScript program to check if the characters a and b are separated by exactly 3 places anywhere (at least once) in a given string. 
+
+// let separate3 = str =>
+// {
+//     return (/a...b/).test(str) || (/b...a/).test(str);
+// }
+// separate3('axxxbxxa');
