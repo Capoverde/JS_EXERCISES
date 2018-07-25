@@ -1284,3 +1284,47 @@
 //   return s3;
 // }
 // lastThree('aaaaaBCD');
+
+// ---------------- Exe #63 ---------------- //
+
+// Write a JavaScript program to create a string using the middle three characters of a given string of odd length. The string length must be greater or equal to three. 
+
+// My solution:
+
+// function middleThree (str)
+// {
+//   if ( str.length < 4 || str.length % 2 === 0 )
+//   {
+//     console.log(`${str} has less then 3 characters or is not odd`);
+//   }
+//   else 
+//   {
+//     s1 = (str.length - 1)/2;
+//     s2 = str.substr(s1, 2);
+//     // console.log(s2);
+//     s3 = str.substr(str[str.length-1],s1);
+//     s4 = s3[s3.length-1];
+//     // console.log(s4);
+//     result = s4 + s2;
+//     console.log(result);
+    
+//   }
+// }
+// middleThree('qqqqqqBCDpppp');
+
+// their solution:
+
+// function middle_three(str) {
+//   if (str.length % 2!= 0) {
+  
+//    mid = (str.length + 1)/2;
+//    return str.slice(mid - 2, mid + 1);
+//    }
+//  return str;
+// }
+// console.log(middle_three('abcdefg'));
+// console.log(middle_three('HTML5'));
+// console.log(middle_three('Python'));
+// console.log(middle_three('PHP'));
+// console.log(middle_three('Exercises'));
+
