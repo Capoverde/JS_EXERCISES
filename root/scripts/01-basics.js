@@ -1155,6 +1155,8 @@
 
 // ---------------- Exe #55 ---------------- //
 
+// My solution:
+
 // Write a JavaScript program to check if a given string contains equal number of p's and t's present.
 
 // function pisandtis (str)
@@ -1169,4 +1171,8 @@
 //     return false;
 // }
 // pisandtis ('ttt ppp');
+
+// ---------------- Exe #56 ---------------- //
+
+// Write a JavaScript program to divide two positive numbers and return a string with properly formatted commas
 
