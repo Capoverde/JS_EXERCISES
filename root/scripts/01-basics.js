@@ -1225,3 +1225,16 @@
 // }
 // new4('cd');
 
+// ---------------- Exe #59 ---------------- //
+
+// Write a JavaScript program to extract the first half of a string of even length
+
+// function halfString (str)
+// {
+    
+//     s1 = str.length/2;
+//     s2 = str.substr(0, s1);
+//     return s2;
+
+// }
+// halfString('AAAABBBB');
