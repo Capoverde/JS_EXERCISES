@@ -1328,3 +1328,25 @@
 // console.log(middle_three('PHP'));
 // console.log(middle_three('Exercises'));
 
+// ---------------- Exe #64 ---------------- //
+
+// Write a JavaScript program to concatenate two strings and return the result. If the length of the strings are not same then remove the characters from the longer string.
+
+// My solution:
+
+function concTwoStrings (s1, s2)
+{
+  if ( s1.length > s2.length )
+  {
+    
+  }
+  else if ( s2.length > s1.length)
+  {
+    return s1;
+  }
+  else
+  {
+    return s1 + s2;
+  }
+}
+concTwoStrings ('Python', 'Js');
