@@ -1035,8 +1035,45 @@
 
 // Write a JavaScript program to capitalize the first letter of each word of a given string. 
 
-function firstletter (str)
-{
+// My solution:
+
+// function firstletter (str)
+// {
+//     let str1 = str.split(' ');
+//         let up = str1.map(function(str){
+//           var l = str[0].toUpperCase();
+//           var r = str.substr(1, str.length);
+//           var sum = l + r;
+//           console.log(sum);
+//         });
+  
+// }
+// firstletter('ala ma kota a kot ma ale');
+
+// function firstletter (str)
+// {
+//     var str1 = str.split(' ');
+
     
-}
-firstletter('');
+//         str1.forEach(function(item){
+// 			 var tolow = item.substr(0,1).toUpperCase();
+// 			 var rest = item.substr(1, item.length);
+// 			 var result = tolow + rest;
+// console.log(result);
+// 			});
+// }
+// firstletter('ala ma kota a kot ma ale');
+
+// Their solution:
+
+// function capital_letter(str) 
+// {
+//     str = str.split(" ");
+
+//     for (let i = 0, x = str.length; i < x; i++) {
+//         str[i] = str[i][0].toUpperCase() + str[i].substr(1);
+//     }
+
+//     return str.join(" ");
+// }
+
