@@ -1414,3 +1414,21 @@
 // }
 // removeP('Azzzzzzzzzzzzzp')
 
+// ---------------- Exe #68 ---------------- //
+
+// Write a JavaScript program to create a new string using the first and last n characters from a given sting. The string length must be greater or equal to n.
+
+// function firstLastN (str, n)
+// {
+//   if (str.length < n)
+//   {
+//     return false;
+//   }
+//     else 
+//   {
+//     s1 = str.slice(0,n);
+//     s2 = str.slice(-n)
+//     return s1 + s2;
+//   }
+// } 
+// console.log(firstLastN('Programming is awesome', 3 ));
