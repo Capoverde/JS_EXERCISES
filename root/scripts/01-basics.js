@@ -1334,19 +1334,23 @@
 
 // My solution:
 
-function concTwoStrings (s1, s2)
-{
-  if ( s1.length > s2.length )
-  {
-    
-  }
-  else if ( s2.length > s1.length)
-  {
-    return s1;
-  }
-  else
-  {
-    return s1 + s2;
-  }
-}
-concTwoStrings ('Python', 'Js');
+// function concTwoStrings (s1, s2)
+// {
+//   if ( s1.length > s2.length )
+//   {
+//       s11 = s1.substr(s1.length - s2.length, s1.length )
+//       console.log(s11);
+//   }
+//   else if ( s2.length > s1.length)
+//   {
+//     s22 = s2.substr(s2.length - s1.length, s2.length )
+//       console.log(s22);
+//   }
+//   else
+//   {
+//      console.log(s1 + s2);
+//   }
+// }
+// concTwoStrings ('Python', 'JavaScript');
+
+
