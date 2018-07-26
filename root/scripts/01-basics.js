@@ -1545,8 +1545,27 @@
 
 // Write a JavaScript program to create a new array taking the middle elements of the two arrays of integer and each length 3.
 
-function middleSum (arr1, arr2)
-{
-  return arr1[1] + arr2[1];
-}
-console.log(middleSum ([1,2,3], [1,2,3]));
+// function middleSum (arr1, arr2)
+// {
+//   return arr1[1] + arr2[1];
+// }
+// console.log(middleSum ([1,2,3], [1,2,3]));
+
+// ---------------- Exe #76 ---------------- //
+
+// Write a JavaScript program to create a new array taking the first and last elements from a given array of integers and length must be greater or equal to 1
+
+// function newArrFirstLast (arr)
+// {
+//   if ( arr.length < 1)
+//   {
+//     return false;
+//   }
+//   else 
+//   {
+//     result=[];
+//     result.push(arr[0],arr[arr.length -1]);
+//     return result;
+//   }
+// }
+// console.log(newArrFirstLast ([20,15,30]));
