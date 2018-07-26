@@ -1569,3 +1569,33 @@
 //   }
 // }
 // console.log(newArrFirstLast ([20,15,30]));
+
+// ---------------- Exe #77 ---------------- //
+
+// Write a JavaScript program to test if an array of integers of length 2 contains 1 or a 3
+
+// First approach:
+// function isOneOrThree (arr)
+// {
+//     if (( arr[0] == 1 || arr[0] == 3) || ( arr[1] == 1 || arr[1] == 3))
+//     {
+//       return true;
+//     }
+//     return false;
+// }
+// console.log(isOneOrThree([4,1]));
+
+// Second approach:
+
+
+// let OneorThree = [1,3,25,4,6,];
+
+// n = OneorThree.includes(1||3);
+// console.log(n);
+
+// Their solution:
+
+
+ 
+
+
