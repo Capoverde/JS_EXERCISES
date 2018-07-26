@@ -1391,5 +1391,26 @@
 // }
 // cityName('New York');
 
+// ---------------- Exe #67 ---------------- //
 
+// Write a JavaScript program to create a new string from a given string, removing the first and last characters of the string if the first or last character are 'P'. Return the original string if the condition is not satisfied
+
+// function removeP (str)
+// {
+//   if (str.startsWith('p'))
+//   {
+//     s1 = str.slice(1,str.length);
+//     console.log(s1); 
+//   }
+//   else if (str.endsWith('p'))
+//   {
+//     s2 = str.substring(0, str.length-1)
+//     console.log(s2);
+//   }
+//   else
+//   {
+//     console.log(str);
+//   }
+// }
+// removeP('Azzzzzzzzzzzzzp')
 
