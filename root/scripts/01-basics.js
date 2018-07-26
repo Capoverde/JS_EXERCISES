@@ -1432,3 +1432,14 @@
 //   }
 // } 
 // console.log(firstLastN('Programming is awesome', 3 ));
+
+// ---------------- Exe #69 ---------------- //
+
+// Write a JavaScript program to compute the sum of three elements of a given array of integers of length 3.
+function tot (arr){
+arr = this.arr;
+var total = arr.reduce(function(a, b) {
+  return a + b;
+});
+}
+console.log(tot([10,20,32]));
