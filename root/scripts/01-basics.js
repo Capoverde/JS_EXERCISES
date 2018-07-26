@@ -1492,3 +1492,18 @@
 //   }
 // }
 // console.log(firstOneLastOne([,3,4,5,6,2]));
+
+// ---------------- Exe #72 ---------------- //
+
+// Write a JavaScript program to check if the first and last elements are equal of a given array of integers length 3
+
+// function FLequal (arr)
+// {
+//   if ( arr[0] == arr[arr.length-1])
+//   {
+//     return `First and last elements are equal`
+//   }
+//   return false;
+// }
+// console.log(FLequal ([1,2,3,1]));
+
