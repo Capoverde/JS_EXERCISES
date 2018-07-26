@@ -1511,8 +1511,31 @@
 
 // Write a JavaScript program to reverse the elements of a given array of integers length 3
 
-function rotation (arr)
+// function rotation (arr)
+// {
+// return arr.reverse();
+// }
+// console.log(rotation([1,2,3]));
+
+// ---------------- Exe #74 ---------------- //
+
+// Write a JavaScript program to find the larger value between the first or last and set all the other elements with that value. Display the new array.
+
+function largerVaule (arr)
 {
-return arr.reverse();
+  if (arr[0] < arr[arr.length -1])
+  {
+     arr[0] = arr[arr.length-1], arr[1] = arr[arr.length -1];
+     return arr;
+  }
+  else if (arr[0] > arr[arr.length -1])
+  {
+     arr[arr.length -1] = arr[0];
+     return arr;
+  }
+  else 
+  {
+    return false;
+  }
 }
-console.log(rotation([1,2,3]));
+console.log( largerVaule ([20,30,40]));
