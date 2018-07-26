@@ -1467,3 +1467,28 @@
 // console.log(rotate_elements_left([3, 4, 5]));  
 // console.log(rotate_elements_left([0, -1, 2]));  
 // console.log(rotate_elements_left([7, 6, 5])); 
+
+// ---------------- Exe #71 ---------------- //
+
+// Write a JavaScript program to check if 1 appears in first or last position of a given array of integers. The array length must be greater or equal to 1
+
+// function firstOneLastOne (arr)
+// {
+//   if (arr.length < 1)
+//   {
+//     return false;
+//   }
+//   else if (arr[0] == 1)
+//   {
+//     return `there is No 1 in the beginning of the array`;
+//   }
+//   else if ( arr[arr.length - 1] == 1)
+//   {
+//     return `there is No 1 at the end of the array`;
+//   }
+//   else
+//   {
+//     return `there is no 1 in the array`;
+//   }
+// }
+// console.log(firstOneLastOne([,3,4,5,6,2]));
