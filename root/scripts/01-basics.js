@@ -1530,7 +1530,7 @@ function largerVaule (arr)
   }
   else if (arr[0] > arr[arr.length -1])
   {
-     arr[arr.length -1] = arr[0];
+     arr[arr.length -1] = arr[0], arr[arr.length -1] = arr[1];
      return arr;
   }
   else 
