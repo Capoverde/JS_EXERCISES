@@ -1373,3 +1373,23 @@
 //   }
 // }
 // isScript('JavaScript');
+
+// ---------------- Exe #66 ---------------- //
+
+// Write a JavaScript program to display the city name if the string begins with "Los" or "New" otherwise return blank.
+
+// function cityName (str)
+// {
+//   if (str.startsWith('Los') || str.startsWith('New'))
+//   {
+//     console.log(str);
+//   }
+//   else
+//   {
+//     console.log('blank LOL');
+//   }
+// }
+// cityName('New York');
+
+
+
