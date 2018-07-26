@@ -1436,10 +1436,34 @@
 // ---------------- Exe #69 ---------------- //
 
 // Write a JavaScript program to compute the sum of three elements of a given array of integers of length 3.
-function tot (arr){
-arr = this.arr;
-var total = arr.reduce(function(a, b) {
-  return a + b;
-});
-}
-console.log(tot([10,20,32]));
+
+// function sum_three(nums)
+// {
+//   return nums[0] + nums[1] + nums[2];
+// }
+
+// console.log(sum_three([10, 32, 20]));  
+// console.log(sum_three([5, 7, 9])); 
+// console.log(sum_three([0, 8, -11]));
+
+// ---------------- Exe #70 ---------------- //
+
+// Write a JavaScript program to rotate the elements left of a given array of integers of length 3
+
+// My solution:
+
+// function rotation (arr)
+// {
+// return arr.reverse();
+// }
+// console.log(rotation([1,2,3]));
+
+// Their solution:
+
+// function rotate_elements_left(array)
+// {
+//     return [array[1], array[2], array[0]];
+// }
+// console.log(rotate_elements_left([3, 4, 5]));  
+// console.log(rotate_elements_left([0, -1, 2]));  
+// console.log(rotate_elements_left([7, 6, 5])); 
