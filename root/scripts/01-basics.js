@@ -1521,21 +1521,32 @@
 
 // Write a JavaScript program to find the larger value between the first or last and set all the other elements with that value. Display the new array.
 
-function largerVaule (arr)
+// function largerVaule (arr)
+// {
+//   if (arr[0] < arr[arr.length -1])
+//   {
+//      arr[0] = arr[arr.length-1], arr[1] = arr[arr.length -1];
+//      return arr;
+//   }
+//   else if (arr[0] > arr[arr.length -1])
+//   {
+//      arr[1]=arr[0], arr[arr.length-1] = arr[0];
+//      return arr;
+//   }
+//   else 
+//   {
+//     return false;
+//   }
+// }
+// console.log( largerVaule ([20,30,40]));
+
+// ---------------- Exe #75 ---------------- //
+
+
+// Write a JavaScript program to create a new array taking the middle elements of the two arrays of integer and each length 3.
+
+function middleSum (arr1, arr2)
 {
-  if (arr[0] < arr[arr.length -1])
-  {
-     arr[0] = arr[arr.length-1], arr[1] = arr[arr.length -1];
-     return arr;
-  }
-  else if (arr[0] > arr[arr.length -1])
-  {
-     arr[1]=arr[0], arr[arr.length-1] = arr[0];
-     return arr;
-  }
-  else 
-  {
-    return false;
-  }
+  return arr1[1] + arr2[1];
 }
-console.log( largerVaule ([20,30,40]));
+console.log(middleSum ([1,2,3], [1,2,3]));
