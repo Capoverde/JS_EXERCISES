@@ -1507,3 +1507,12 @@
 // }
 // console.log(FLequal ([1,2,3,1]));
 
+// ---------------- Exe #73 ---------------- //
+
+// Write a JavaScript program to reverse the elements of a given array of integers length 3
+
+function rotation (arr)
+{
+return arr.reverse();
+}
+console.log(rotation([1,2,3]));
