@@ -1725,3 +1725,20 @@
 
 // console.log(longest_string(['a', 'aa', 'aaa', 'aaaaa','aaaa']));
 
+// ---------------- Exe #84 ---------------- //
+
+// Write a JavaScript to replace each character of a given string by the next one in the English alphabet
+
+// Note: 'a' will be replace by 'b' or 'z' would be replaced by 'a'.
+
+// function LetterChanges(str) {
+//   var strOut='';
+//   for (var i = 0; i < str.length; i++) {
+//       if (96 < str.charCodeAt(i) && str.charCodeAt(i) < 123) {
+//           strOut += String.fromCharCode(str.charCodeAt(i) + 1);
+//       }
+//   }
+//   return strOut;
+// }
+// console.log(LetterChanges('inka'));
+
