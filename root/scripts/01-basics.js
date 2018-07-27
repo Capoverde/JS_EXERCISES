@@ -1687,3 +1687,41 @@
 
 // Write a JavaScript to add two positive integers without carry.
 
+// function add_two_int_without_carrying(n1, n2) {
+//   var result = 0,
+//       x = 1;
+//   while (n1 > 0 && n2 > 0) {
+//       result += x * ((n1 + n2) % 10);
+//       n1 = Math.floor(n1 / 10);
+//       n2 = Math.floor(n2 / 10);
+//       x*= 10;
+//   }
+//   return result;
+// }
+// console.log(add_two_int_without_carrying(222, 911))
+// console.log(add_two_int_without_carrying(200, 900))
+
+// ---------------- Exe #83 ---------------- //
+
+// Write a JavaScript to find the longest string from an given array of strings.
+
+// My solution:
+
+// let arr = ['aa', 'a', 'aaa', 'aaaaaaaa', 'aaa', 'aaaa', 'aa', 'a'];
+// console.log(arr);
+
+// let sort =  arr.sort(function (a, b) { return b.length - a.length; })[0];
+    
+// console.log(sort);
+
+// Their Solution:
+
+// function longest_string(str_ara) {
+//   let max = str_ara[0].length;
+//   str_ara.map(v => max = Math.max(max, v.length));
+//   result = str_ara.filter(v => v.length == max);
+//   return result;
+// }
+
+// console.log(longest_string(['a', 'aa', 'aaa', 'aaaaa','aaaa']));
+
