@@ -1742,3 +1742,52 @@
 // }
 // console.log(LetterChanges('inka'));
 
+// ---------------- Exe #85 ---------------- //
+
+// Write a JavaScript code to divide an given array of positive integers into two parts. First element goes to first part, second element goes to second part, and third element goes to first part and so on. Now compute the sum of two parts and store into an array of size two.
+
+// My solution:
+
+// function twoParts (arr)
+// {
+//   var even = [];
+//   var odd = [];
+//   for(i = 0; i < arr.length; i ++){
+
+//     if (arr[i] % 2 ===  0)
+//     {
+//       even.push(arr[i])
+//     }
+//     else if (arr[i] % 2 !== 0)
+//     {
+//       odd.push(arr[i])
+//     }
+//   }
+ 
+// var reduceEven = even.reduce(function(a,b){
+//   return a + b;
+// });
+// console.log(reduceEven);
+
+// var reduceOdd = odd.reduce(function(a,b){
+//   return a + b;
+// });
+// console.log(reduceOdd);
+
+// }
+// twoParts([1,2,3,4,5,6]);
+
+// Their solution:
+
+// function alternate_Sums(arr) {
+//   const result = [0, 0];
+//   for(let i = 0; i < arr.length; i++) 
+//   {
+//     if(i % 2) result[1] += arr[i];
+//     else
+//       result[0] += arr[i];
+//   }
+//   return result
+// }
+
+// console.log(alternate_Sums([1, 2, 3, 4, 5, 6]))
