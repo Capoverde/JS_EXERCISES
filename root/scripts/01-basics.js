@@ -1878,3 +1878,18 @@
 // console.log(array_checking([10,20,30], [30,10,20]))
 // console.log(array_checking([10,20,30,40], [10,30,20,40]))
 
+// ---------------- Exe #88 ---------------- //
+
+// Write a JavaScript program to check whether two given integers are similar or not, if a given divisor divides both integers and it does not divide either. 
+
+// My solution:
+
+function similar_ints (n1, n2, n3)
+{
+   if( (n1 % n3 == 0  &&  n2 % n3 == 0 ) || (n1 % n3 !== 0  &&  n2 % n3 !== 0 ))
+    {
+     return true;
+    }
+    return false;
+}
+console.log(similar_ints(10, 25, 5));
