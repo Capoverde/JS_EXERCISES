@@ -1791,3 +1791,55 @@
 // }
 
 // console.log(alternate_Sums([1, 2, 3, 4, 5, 6]))
+
+// ---------------- Exe #86 ---------------- //
+
+// Write a JavaScript program to find the types of a given angle.  
+// Types of angles:
+// Acute angle: An angle between 0 and 90 degrees.
+// Right angle: An 90 degree angle.
+// Obtuse angle: An angle between 90 and 180 degrees.
+// Straight angle: A 180 degree angle.
+
+// My solution:
+
+// function angleType (ang)
+// {
+//   if (ang >= 0 && ang <= 89)
+//   {
+//     console.log(`${ang} is 'acute angle'`);
+//   }
+//   if (ang == 90)
+//   {
+//     console.log(`${ang} is 'Right angle'`);
+//   }
+//   if (ang >= 91 && ang <= 179 )
+//   {
+//     console.log(`${ang} is 'Obtuse angle'`);
+//   }
+//   if (ang == 180 )
+//   {
+//     console.log(`${ang} is 'Straight angle'`);
+//   }
+// }
+// angleType(85);
+
+// Their solution:
+
+// function angle_Type(angle) {
+//   if(angle < 90) {
+//     return "Acute angle.";
+//   }
+//   if(angle === 90) {
+//     return "Right angle.";
+//   }
+//   if(angle < 180) {
+//     return "Obtuse angle.";
+//   }
+//   return "Straight angle.";
+// }
+
+// console.log(angle_Type(47))
+// console.log(angle_Type(90))
+// console.log(angle_Type(145))
+// console.log(angle_Type(180))
