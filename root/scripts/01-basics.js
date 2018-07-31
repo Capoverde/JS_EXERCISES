@@ -1899,12 +1899,38 @@
 // Write a JavaScript program to check whether two given integers are similar or not, if a given divisor divides both integers and it does not divide either.
 // For example x = 10, y = 30 and z = 300, we can replace $ with a multiple operator (*) to obtain x * y = z
 
-function check_arithmetic_Expression(x, y, z) {
-  return x + y == z || x * y == z || x / y == z || x - y == z;
-}
+// function check_arithmetic_Expression(x, y, z) {
+//   return x + y == z || x * y == z || x / y == z || x - y == z;
+// }
 
-console.log(check_arithmetic_Expression(10, 25, 35))
-console.log(check_arithmetic_Expression(10, 25, 250))
-console.log(check_arithmetic_Expression(30, 25, 5))
-console.log(check_arithmetic_Expression(100, 25, 4.0))
-console.log(check_arithmetic_Expression(100, 25, 25))
+// console.log(check_arithmetic_Expression(10, 25, 35))
+// console.log(check_arithmetic_Expression(10, 25, 250))
+// console.log(check_arithmetic_Expression(30, 25, 5))
+// console.log(check_arithmetic_Expression(100, 25, 4.0))
+// console.log(check_arithmetic_Expression(100, 25, 25))
+
+// ---------------- Exe #90 ---------------- //
+
+// Write a JavaScript program to find the kth greatest element of a given array of integers
+
+// function Kth_greatest_in_array(arr, k) {
+
+//   for (let i = 0; i < k; i++) {
+//     let max_index = i;
+//     const tmp = arr[i];
+
+//     for (let j = i + 1; j < arr.length; j++) {
+//       if (arr[j] > arr[max_index]) {
+//         max_index = j;
+//       }
+//     }
+
+//     arr[i] = arr[max_index];
+//     arr[max_index] = tmp;
+//   }
+
+//   return arr[k - 1];
+// }
+
+// console.log(Kth_greatest_in_array([1,2,3,4,5], 3))
+// console.log(Kth_greatest_in_array([-10,-25,-47,-36,0], 1))
