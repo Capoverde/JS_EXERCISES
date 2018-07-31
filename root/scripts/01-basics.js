@@ -1884,12 +1884,27 @@
 
 // My solution:
 
-function similar_ints (n1, n2, n3)
-{
-   if( (n1 % n3 == 0  &&  n2 % n3 == 0 ) || (n1 % n3 !== 0  &&  n2 % n3 !== 0 ))
-    {
-     return true;
-    }
-    return false;
+// function similar_ints (n1, n2, n3)
+// {
+//    if( (n1 % n3 == 0  &&  n2 % n3 == 0 ) || (n1 % n3 !== 0  &&  n2 % n3 !== 0 ))
+//     {
+//      return true;
+//     }
+//     return false;
+// }
+// console.log(similar_ints(10, 25, 5));
+
+// ---------------- Exe #89 ---------------- //
+
+// Write a JavaScript program to check whether two given integers are similar or not, if a given divisor divides both integers and it does not divide either.
+// For example x = 10, y = 30 and z = 300, we can replace $ with a multiple operator (*) to obtain x * y = z
+
+function check_arithmetic_Expression(x, y, z) {
+  return x + y == z || x * y == z || x / y == z || x - y == z;
 }
-console.log(similar_ints(10, 25, 5));
+
+console.log(check_arithmetic_Expression(10, 25, 35))
+console.log(check_arithmetic_Expression(10, 25, 250))
+console.log(check_arithmetic_Expression(30, 25, 5))
+console.log(check_arithmetic_Expression(100, 25, 4.0))
+console.log(check_arithmetic_Expression(100, 25, 25))
