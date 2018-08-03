@@ -1963,3 +1963,5 @@
 
 // ---------------- Exe #92 ---------------- //
 
+// Write a JavaScript program to find the maximal difference between any two adjacent elements of a given array of integers.
+
