@@ -27,3 +27,22 @@
 //      }  
 //    }
 // }
+
+// -------------- #3 -------------- //
+
+// Write a JavaScript program to set the background color of a paragraph.
+
+// function set_background(){
+//   var x = document.querySelectorAll('p');
+//   x.forEach(function(elem){
+//     var z = Array.from(x);
+//      console.log(z);
+//   for(var i=0;i<=z.length;i++){
+//     z[i].style.background = 'red';
+//    }
+//   });
+//   }
+
+// -------------- #4 -------------- //
+
+
