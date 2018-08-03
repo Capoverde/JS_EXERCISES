@@ -45,4 +45,26 @@
 
 // -------------- #4 -------------- //
 
+// Here is a sample html file with a submit button. Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.
+
+// function getAttributes()
+// {
+//  var u = document.getElementById("w3r").href;
+//  console.log('The value of the href attribute of the link is : '+u);
+//  var v = document.getElementById("w3r").hreflang;   
+//  console.log('The value of the hreflang attribute of the link is : '+v);
+//  var w = document.getElementById("w3r").rel; 
+//  console.log('The value of the rel attribute of the link is : '+w);
+//  var x = document.getElementById("w3r").target; 
+//  console.log('The value of the taget attribute of the link is : '+x);
+//  var y = document.getElementById("w3r").type; 
+//   console.log('The value of the type attribute of the link is : '+y);  
+// }
+
+// -------------- #5 -------------- //
+
+
+
+
+
 
