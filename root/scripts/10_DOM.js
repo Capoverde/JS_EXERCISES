@@ -1,3 +1,29 @@
+// =========================================================//
+if ($('#back-to-top').length) {
+  var scrollTrigger = 100, // px
+      backToTop = function () {
+          var scrollTop = $(window).scrollTop();
+          if (scrollTop > scrollTrigger) {
+              $('#back-to-top').addClass('show');
+          } else {
+              $('#back-to-top').removeClass('show');
+          }
+      };
+  backToTop();
+  $(window).on('scroll', function () {
+      backToTop();
+  });
+  $('#back-to-top').on('click', function (e) {
+      e.preventDefault();
+      $('html,body').animate({
+          scrollTop: 0
+      }, 700);
+  });
+}
+// =========================================================//
+
+
+
 // -------------- #1 -------------- //
 
 // Here is a sample html file with a submit button. Now modify the style of the paragraph text through javascript code.
@@ -75,6 +101,8 @@
 //   y.innerHTML="New Cell1";
 //   z.innerHTML="New Cell2";
 // }
+
+// -------------- #6 -------------- //
 
 
 
