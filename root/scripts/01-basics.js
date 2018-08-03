@@ -1965,3 +1965,8 @@
 
 // Write a JavaScript program to find the maximal difference between any two adjacent elements of a given array of integers.
 
+// function maxDiff (arr)
+// {
+
+// }
+// console.log(maxDiff([1,2,3,8,9]));
