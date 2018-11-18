@@ -1967,6 +1967,6 @@
 
 // function maxDiff (arr)
 // {
-
+    
 // }
 // console.log(maxDiff([1,2,3,8,9]));
