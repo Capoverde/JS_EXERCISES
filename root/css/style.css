@@ -92,4 +92,12 @@ button{
     height: 2000px;
 }
 
+
+.redish{
+    background: red;
+    border-radius: 28px;
+    transition: all .5s ease-in;
+  }
+
+  
 /* ========================================= */

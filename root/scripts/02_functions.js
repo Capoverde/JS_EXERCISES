@@ -33,30 +33,23 @@
 
 // function  isPalindrom (str)
 // {
-  
+
 // }
 // console.log(isPalindrom('reber'));
 
 // ------------------- #3 ------------------- //
 
-function clk(){
-  console.log('click');
-}
+// function clk(){
+//   classList.add('redish');
+// }
 
 const btns = document.querySelectorAll('.btn2, .btn1')
 const btns2 =[...btns];
 console.log(btns2);
 
 for(i = 0; i < btns2.length; i ++){
-  btns2[i].addEventListener('click', clk)
+  btns2[i].addEventListener('click', function(){
+   this.classList.toggle('redish')
+  })
 }
 
-// let btn1 = document.querySelector('.btn1');
-// let btn2 = document.querySelector('.btn2');
-
-
-// let btns =[btn1, btn2]
-
-// for(i = 0; i < btns.length; i ++){
-//   console.log(btns[i]);
-// }
